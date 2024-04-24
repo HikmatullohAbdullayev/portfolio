@@ -26,17 +26,26 @@ function About(props) {
             <a className='' href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer">
             <img className='w-[50px]' src="/public/html.png" alt="html" />
             </a>
-            <a className='' href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
-            <img className='w-[50px]' src="/public/file-type-css.svg" alt="sass" />
+            <a className='' href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer">
+            <img className='w-[50px]' src="/public/file-type-css.svg" alt="css" />
             </a>
             <a className='' href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
             <img className='w-[50px]' src="https://sass-lang.com/assets/img/logos/logo.svg" alt="sass" />
             </a>
-            <a className='' href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
-            <img className='w-[50px]' src="https://sass-lang.com/assets/img/logos/logo.svg" alt="sass" />
+            <a className='' href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+            <img className='w-[50px]' src="/public/tailwind-css.svg" alt="sass" />
             </a>
-            <a className='' href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
-            <img className='w-[50px]' src="https://sass-lang.com/assets/img/logos/logo.svg" alt="sass" />
+            <a className='' href="https://styled-components.com/" target="_blank" rel="noopener noreferrer">
+            <img className='w-[50px]' src="/public/file-type-styled.svg" alt="sass" />
+            </a>
+            <a className='' href="https://styled-components.com/" target="_blank" rel="noopener noreferrer">
+            <img className='w-[50px]' src="/public/file-type-styled.svg" alt="sass" />
+            </a>
+            <a className='' href="https://styled-components.com/" target="_blank" rel="noopener noreferrer">
+            <img className='w-[50px]' src="/public/file-type-styled.svg" alt="sass" />
+            </a>
+            <a className='' href="https://styled-components.com/" target="_blank" rel="noopener noreferrer">
+            <img className='w-[50px]' src="/public/file-type-styled.svg" alt="sass" />
             </a>
         </div>
         </div>
