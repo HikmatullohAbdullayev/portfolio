@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <div>
             Header
+            <Link to='/project'>project</Link>
+            <Link to='/'>Home</Link>
         </div>
     );
 }
