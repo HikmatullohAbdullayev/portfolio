@@ -6,12 +6,19 @@ import Layout from './layout/Layout'
 import Home from './page/Home'
 import Project from './page/Project'
 import ProjectDetail from './page/ProjectDetail'
+import { useState } from 'react'
+import { ThemeContext } from './context/ThemeContext'
 
 function App() {
-  
+  const [dark, setDark] = useState(false);
+
+  const themeMode = () => {
+    setDark(!dark);
+  };
 
   return (
     <>
+      <ThemeContext.Provider value={{ dark, setDark, themeMode }}>
       <Routes >
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
@@ -23,6 +30,7 @@ function App() {
     </Route>
      
       </Routes>
+      </ThemeContext.Provider>
     </>
   )
 }

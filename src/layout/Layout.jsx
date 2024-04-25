@@ -9,7 +9,9 @@ function Layout() {
             <div className="box">
             <div className="container">
             <Header/>
+            <main>
             <Outlet/>
+            </main>
             </div>
             </div> 
             <Footer/>           
