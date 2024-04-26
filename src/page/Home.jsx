@@ -1,8 +1,9 @@
+import About from "../components/About";
 
 function Home() {
     return (
         <div>
-            Home
+            <About/>
         </div>
     );
 }

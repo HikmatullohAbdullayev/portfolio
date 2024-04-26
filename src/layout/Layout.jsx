@@ -9,7 +9,7 @@ import { ThemeContext } from "../context/ThemeContext";
 function Layout() {
     const {dark} = useContext(ThemeContext)
     return (
-        <div className={`wrapper  ${dark ? "bg-[#1E1E2E]" : "bg-white"}`}>
+        <div className={`wrapper  ${dark ? "bg-[#1E1E2E]" : "bg-[#FDEBF3]"}`}>
             <div className="box">
             <div className="container">
             <Header/>

@@ -28,7 +28,7 @@ function Header() {
           </li>
           <li>
             <NavLink
-              className="border-b-2 border-solid border-transparent hover:border-b-2 hover:border-solid hover:border-[#375A7F]"
+              className={`  ${dark? "text-white" : ""} transition-all duration-[0.7s] ease-in-out border-b-2 border-solid border-transparent hover:border-b-2 hover:border-solid hover:border-[#375A7F]`}
               target="blank"
               to="https://github.com/HikmatullohAbdullayev"
             >
@@ -39,11 +39,11 @@ function Header() {
       </nav>
       <div onClick={themeMode} className="theme cursor-pointer">
         {dark ? (
-          <span className="fill-black bg-white transition-all duration-[0.7s] ease-in-out  hover:fill-white  ">
+          <span className="fill-black bg-white transition-all duration-[0.7s] ease-in-out   ">
             <MoonIcon />
           </span>
         ) : (
-          <span className="fill-black transition-all duration-[0.7s] ease-in-out hover:fill-white">
+          <span className="fill-black transition-all duration-[0.7s] ease-in-out ">
             <SunIcon />
           </span>
         )}
