@@ -8,7 +8,7 @@ function About() {
                 <img className="w-full " src={aboutImg} alt="space img" />
             </div>
             <div className="info">
-                
+                about
             </div>
             
         </section>
