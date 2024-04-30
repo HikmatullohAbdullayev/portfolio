@@ -2,6 +2,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { imgData } from "../data/imgData";
+import { Fragment } from "react";
 
 function Skills() {
     const { dark } = useContext(ThemeContext);
@@ -14,19 +15,19 @@ function Skills() {
         >
           Texnologiyalar
         </h2>
-            <div className="img_block grid grid-cols-5  gap-3 pt-[50px]">
+            <div className="img_block grid grid-cols-[repeat(auto-fill,minmax(60px,1fr))]  gap-[15px] pt-[50px]">
                 {
                     imgData.map((item) =>{
                         return (
-                          <>
-                            <div className="w-[50px] ">
+                          <Fragment key={item.alt} >
+                            <div  className="w-[50px] h-[50px] ">
                               <img
                                 className="w-full"
                                 src={item.src}
                                 alt={item.alt}
                               />
                             </div>
-                          </>
+                          </Fragment>
                         );
                     })
                 }

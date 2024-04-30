@@ -1,24 +1,53 @@
-import html from "../../src/assets/img/html.png"
-import css from "../../src/assets/img/css.png"
-import react from "../../src/assets/img/react.png"
-import redux from "../../src/assets/img/redux.png"
+
 
 
 export const imgData = [
     {
-        src:{html},
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/html.png",
         alt:"html"
     },
     {
-        src:{css},
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/css.png",
         alt:"css"
     },
     {
-        src:{react},
-        alt:"html"
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/sass.png",
+        alt:"sass"
     },
     {
-        src:{redux},
-        alt:"html"
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/tailwind.png",
+        alt:"tailwind"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/javascript.png",
+        alt:"javascript"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/typescript.png",
+        alt:"typescript"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/react.png",
+        alt:"react"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/redux.png",
+        alt:"redux"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/nextJs.png",
+        alt:"nextJs"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/firebase.png",
+        alt:"firebase"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/git.png",
+        alt:"git"
+    },
+    {
+        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/styleComponents.png",
+        alt:"styleComponents"
     },
 ]
