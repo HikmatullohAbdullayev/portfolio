@@ -1,18 +1,24 @@
+import html from "../../src/assets/img/html.png"
+import css from "../../src/assets/img/css.png"
+import react from "../../src/assets/img/react.png"
+import redux from "../../src/assets/img/redux.png"
+
+
 export const imgData = [
     {
-        src:"../../src/assets/img/html.png",
+        src:{html},
         alt:"html"
     },
     {
-        src:"../../src/assets/img/css.png",
+        src:{css},
         alt:"css"
     },
     {
-        src:"../../src/assets/img/react.png",
+        src:{react},
         alt:"html"
     },
     {
-        src:"../../src/assets/img/redux.png",
+        src:{redux},
         alt:"html"
     },
 ]
