@@ -6,6 +6,7 @@ import "react-lazy-load-image-component/src/effects/opacity.css";
 
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import { Link } from "react-router-dom";
 
 function About() {
   const { dark } = useContext(ThemeContext);
@@ -38,12 +39,7 @@ function About() {
       </div>
       <div className="content">
         <h2
-          className={`text-[30px] border-b-[4px] border-solid border-[#375A7F]  font-[Pacifico] font-normal  mobile420:text-[26px] inline-block mt-[50px] mb-[30px] 
-
-                 ${dark ? "text-white" : ""}  `}
-        >
-          Men haqimda
-        </h2>
+          className={`text-[30px] border-b-[4px] border-solid border-[#375A7F]  font-[Pacifico] font-normal  mobile420:text-[26px] inline-block mt-[50px] mb-[30px]  ${dark ? "text-white" : ""}  `} > Men haqimda</h2>
         <p className={` text-[18px] font-normal leading-[26px]
         ${dark ? "text-white" : ""}`}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
@@ -52,10 +48,9 @@ function About() {
           voluptatem atque illo a dolorem tempora?
         </p>
       </div>
-      <div className="w-full text-center">
-        <button className={` px-[15px] py-[5px] rounded-[6px] border-[3px] border-solid border-[#78C2AD]  mt-[20px] hover:bg-[#78C2AD] hover:text-black transition-all duration-[0.3s] ease-in-out
-        
-        ${dark ? "text-white"  : "hover:text-white"}`}>Loyihalar</button>
+      <div className="w-full text-center mt-[30px]">
+        <Link to="project" className={` px-[15px] py-[5px] rounded-[6px] border-[3px] border-solid border-[#78C2AD]   hover:bg-[#78C2AD] hover:text-black transition-all duration-[0.3s] ease-in-out
+        ${dark ? "text-white"  : "hover:text-white"}`}>Loyihalar</Link>
       </div>
     </section>
   );

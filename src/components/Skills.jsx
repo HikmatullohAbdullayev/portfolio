@@ -20,8 +20,9 @@ function Skills() {
                     imgData.map((item) =>{
                         return (
                           <Fragment key={item.alt} >
-                            <div  className="w-[50px] h-[50px] ">
+                            <div  className="w-[50px] h-[50px]  ">
                               <img
+                              
                                 className="w-full"
                                 src={item.src}
                                 alt={item.alt}

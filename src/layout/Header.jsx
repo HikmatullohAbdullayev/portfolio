@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
@@ -13,7 +13,7 @@ function Header() {
   const { dark, themeMode } = useContext(ThemeContext);
 
   return (
-    <div className="py-[12px]  flex justify-between items-center">
+    <header className="py-[12px]  flex justify-between items-center">
       <Link
         to="/"
         className={`text-[24px] ${
@@ -26,7 +26,7 @@ function Header() {
       <nav>
         <ul className="flex justify-between items-center gap-5 mobile420:gap-2">
           <li>
-            <NavLink
+            <Link
               className={`  ${
                 dark ? "text-white" : ""
               } transition-all duration-[0.7s] ease-in-out border-b-2 border-solid border-transparent hover:border-b-2 hover:border-solid hover:border-[#375A7F]`}
@@ -39,7 +39,7 @@ function Header() {
               >
                 <PortfolioIcon />
               </span>
-            </NavLink>
+            </Link>
           </li>
           <li>
             <Link target="blank" to="https://github.com/HikmatullohAbdullayev">
@@ -77,7 +77,7 @@ function Header() {
           </span>
         )}
       </div>
-    </div>
+    </header>
   );
 }
 

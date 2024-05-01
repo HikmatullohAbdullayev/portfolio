@@ -1,5 +1,5 @@
 import About from "../components/About";
-import Qoshimcha from "../components/Qoshimcha";
+import Language from "../components/Language";
 import Skills from "../components/Skills";
 
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
         <div>
             <About/>
             <Skills/>
-            <Qoshimcha/>
+            <Language/>
         </div>
     );
 }

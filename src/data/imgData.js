@@ -3,51 +3,68 @@
 
 export const imgData = [
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/html.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
         alt:"html"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/css.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
         alt:"css"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/sass.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
         alt:"sass"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/tailwind.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
         alt:"tailwind"
     },
+    // {
+    //     src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+    //     alt:"mui"
+    // },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/javascript.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
         alt:"javascript"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/typescript.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
         alt:"typescript"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/react.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
         alt:"react"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/redux.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
         alt:"redux"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/nextJs.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg",
         alt:"nextJs"
-    },
+    }, 
+    // {
+    //     src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg",
+    //     alt:"astro"
+    // },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/firebase.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg",
         alt:"firebase"
     },
     {
-        src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/git.png",
+        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg",
         alt:"git"
     },
     {
         src:"https://euphonious-raindrop-b474e8.netlify.app/img/portfolio/styleComponents.png",
         alt:"styleComponents"
     },
+    // {
+    //     src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
+    //     alt:"axios"
+    // },
+    // {
+    //     src:"https",
+    //     alt:"axios"
+    // },
+   
 ]
