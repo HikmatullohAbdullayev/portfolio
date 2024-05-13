@@ -34,8 +34,8 @@ function ProjectIntro() {
             >
               {project.name}
             </h2>
-            <div className="flex justify-around items-center py-[6px] px-[10px]">
-              <Link className="text-red-500" to={project.website}> Web sayt</Link>
+            <div className="flex justify-around items-center py-[6px] bg-slate-200 rounded-md">
+              <Link className="text-red-500 " to={project.website}> Web sayt</Link>
               <Link className="text-yellow-500" to={project.github}>Git hub</Link>
             </div>
             <p
