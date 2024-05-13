@@ -1,9 +1,10 @@
+import ProjectIntro from "../components/ProjectIntro";
 
 function Project() {
     return (
-        <div>
-            Project
-        </div>
+        <section>
+            <ProjectIntro/>
+        </section>
     );
 }
 
