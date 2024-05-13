@@ -51,7 +51,7 @@ function About() {
         ${dark ? "text-white" : ""}`}
         >
           Men Najot Ta'limda Frontend React JS dasturlsh kursini tamomladim va
-          sertifikat oldim. Bundan tashqari, men turli musobaqalar, tadbirlarda faol qatnashib turaman. Hozirda turli loyihalar bilan shug‘ullanyapman.
+          sertifikat oldim. Bundan tashqari, men turli musobaqalar, tadbirlarda faol qatnashib turaman. Hozirda turli texnologiyalarni loyihalarimda qo‘llab o‘rganyapman.
           
            Mening tilni bilish darajam arab tili (Boshlng'ich),
          va o‘zbek tili (ona tili) kiradi. Men sizning
