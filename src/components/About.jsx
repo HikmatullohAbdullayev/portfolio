@@ -39,18 +39,34 @@ function About() {
       </div>
       <div className="content">
         <h2
-          className={`text-[30px] border-b-[4px] border-solid border-[#375A7F]  font-[Pacifico] font-normal  mobile420:text-[26px] inline-block mt-[50px] mb-[30px]  ${dark ? "text-white" : ""}  `} > Men haqimda</h2>
-        <p className={` text-[18px] font-normal leading-[26px]
-        ${dark ? "text-white" : ""}`}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-          voluptatem maiores officiis vitae adipisci cumque perferendis
-          assumenda sed? Dolore ipsam eum perferendis adipisci officiis
-          voluptatem atque illo a dolorem tempora?
+          className={`text-[30px] border-b-[4px] border-solid border-[#375A7F]  font-[Pacifico] font-normal  mobile420:text-[26px] inline-block mt-[50px] mb-[30px]  ${
+            dark ? "text-white" : ""
+          }  `}
+        >
+          {" "}
+          Men haqimda
+        </h2>
+        <p
+          className={` text-[18px] font-normal leading-[26px]
+        ${dark ? "text-white" : ""}`}
+        >
+          Men Najot Ta'limda Frontend React JS dasturlsh kursini tamomladim va
+          sertifikat oldim. Bundan tashqari, men turli musobaqalar, tadbirlarda faol qatnashib turaman. Hozirda turli loyihalar bilan shug‘ullanyapman.
+          
+           Mening tilni bilish darajam arab tili (Boshlng'ich),
+         va o‘zbek tili (ona tili) kiradi. Men sizning
+          jamoangizga samarali hissa qo'shish uchun Frontend dasturchisi
+          sifatida bilim va ko'nikmalarimni qo'llashga tayyorman.
         </p>
       </div>
       <div className="w-full text-center mt-[30px]">
-        <Link to="project" className={` px-[15px] py-[5px] rounded-[6px] border-[3px] border-solid border-[#78C2AD]   hover:bg-[#78C2AD] hover:text-black transition-all duration-[0.3s] ease-in-out
-        ${dark ? "text-white"  : "hover:text-white"}`}>Loyihalar</Link>
+        <Link
+          to="project"
+          className={` px-[15px] py-[5px] rounded-[6px] border-[3px] border-solid border-[#78C2AD]   hover:bg-[#78C2AD] hover:text-black transition-all duration-[0.3s] ease-in-out
+        ${dark ? "text-white" : "hover:text-white"}`}
+        >
+          Loyihalar
+        </Link>
       </div>
     </section>
   );
