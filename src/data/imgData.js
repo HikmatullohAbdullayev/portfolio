@@ -46,10 +46,10 @@ export const imgData = [
     //     src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg",
     //     alt:"astro"
     // },
-    {
-        src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg",
-        alt:"firebase"
-    },
+    // {
+    //     src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg",
+    //     alt:"firebase"
+    // },
     {
         src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg",
         alt:"git"
