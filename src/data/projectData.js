@@ -49,6 +49,13 @@ export const projectData = [
         style1:"Tailwind css",
     },
     {
+        name:"Landing Page",
+        website:"https://online-coursess.netlify.app/",
+        github: "https://github.com/HikmatullohAbdullayev/online-courses",
+        stack1:"React-js",
+        style1:"Tailwind css",
+    },
+    {
         name:"To do",
         website:"https://todolist-react-task.netlify.app/",
         github: "https://github.com/HikmatullohAbdullayev/ToDoList-React",

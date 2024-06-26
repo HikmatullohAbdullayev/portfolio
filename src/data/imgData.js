@@ -62,9 +62,13 @@ export const imgData = [
         src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
         alt:"axios"
     },
+    {
+        src:"https://avatars.githubusercontent.com/u/139895814?s=200&v=4",
+        alt:"Shadcn UI"
+    },
     // {
     //     src:"https",
-    //     alt:"axios"
+    //     alt:"Shadc"
     // },
    
 ]
