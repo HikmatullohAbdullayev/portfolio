@@ -22,8 +22,15 @@ export const projectData = [
         name:"Multi Page, E-commerce",
         website:"https://shoes-market-online.netlify.app/",
         github: "https://github.com/HikmatullohAbdullayev/Shoes-market",
-        stack1:"React-js, ",
+        stack1:"React-js, ChatGPT ",
         style1:"CSS ",
+    },
+    {
+        name:"Multi Page, E-commerce",
+        website:"https://gmt-shop.netlify.app/",
+        github: "https://github.com/HikmatullohAbdullayev/gmtshop",
+        stack1:"React-js, ChatGPT ",
+        style1:"Tailwind css ",
     },
     {
         name:"Multi Page, E-commerce",
