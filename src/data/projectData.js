@@ -4,6 +4,13 @@
 export const projectData = [
     {
         name:"Multi Page",
+        website:"https://malaka-oshirish-platformasi.netlify.app/",
+        github: "https://github.com/HikmatullohAbdullayev/Malaka-oshirish-platformasi",
+        stack1:"React",
+        style1:"Tailwind css, Shadcn UI",
+    },
+    {
+        name:"Multi Page",
         website:"https://onlinecoursesapp.netlify.app/",
         github: "https://github.com/HikmatullohAbdullayev/online-course",
         stack1:"React, useContext",
@@ -13,25 +20,25 @@ export const projectData = [
     },
     {
         name:"Multi Page, E-commerce",
+        website:"https://shoes-market-online.netlify.app/",
+        github: "https://github.com/HikmatullohAbdullayev/Shoes-market",
+        stack1:"React-js, ",
+        style1:"CSS ",
+    },
+    {
+        name:"Multi Page, E-commerce",
         website:"https://safari-store.netlify.app/",
         github: "https://github.com/HikmatullohAbdullayev/safari-store",
         stack1:"Next-js",
         style1:"Tailwind css",
         info:"Saytga",
         problem:"Foydalanuvchi "
-    },
+    }, 
     {
         name:"Landing Page",
         website:"https://med-yordam.netlify.app/",
         github: "https://github.com/HikmatullohAbdullayev/MedYordam",
         stack1:"React-js",
-        style1:"Tailwind css",
-    },
-    {
-        name:"Multi Page, E-commerce",
-        website:"https://gmt-shop.netlify.app/",
-        github: "https://github.com/HikmatullohAbdullayev/gmtshop",
-        stack1:"React-js, ",
         style1:"Tailwind css",
     },
     {
