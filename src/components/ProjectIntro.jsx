@@ -28,6 +28,9 @@ function ProjectIntro() {
       <div className="grid grid-cols-2 gap-4 ">
         {projectData.map((project) => (
           <div key={project.name} className="p-[10px] shadow-sm rounded-2xl hover:shadow py-[10px] px-16px border " >
+            <div className="">
+              <img src="" alt="" />
+            </div>
             <h2
               className={` text-[18px] font-normal leading-[26px]
         ${dark ? "text-white" : ""}`}
