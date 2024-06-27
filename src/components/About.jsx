@@ -44,7 +44,7 @@ function About() {
           }  `}
         >
           {" "}
-          Men haqimda  <span className="text-red-500"><Link to="https://drive.google.com/file/d/13_RE6E6gAjafyFBP2XF5sjBQGr5vu5ch/view">Rezyume</Link></span>
+          Men haqimda  <span className="text-red-500"><Link target="blank" to="https://drive.google.com/file/d/13_RE6E6gAjafyFBP2XF5sjBQGr5vu5ch/view">Rezyume</Link></span>
         </h2>
         <p
           className={` text-[18px] font-normal leading-[26px]
