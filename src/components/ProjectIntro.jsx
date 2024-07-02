@@ -27,12 +27,12 @@ function ProjectIntro() {
       </h2>
       <div className="grid grid-cols-2 gap-4 ">
         {projectData.map((project) => (
-          <div key={project.name} className="p-[10px] shadow-sm rounded-2xl hover:shadow py-[10px] px-16px border " >
-            <div className="">
-              <img src="" alt="" />
+          <div key={project.name} className="p-[10px] shadow-sm rounded-2xl  bg-slate-100 hover:shadow py-[10px] px-16px border " >
+            <div className=" w-[200px]  mx-auto p-[12px]  bg-white">
+              <img className="w-full h-[140px] object-cover rounded-lg shadow-lg" src={project.img} alt="" />
             </div>
             <h2
-              className={` text-[18px] font-normal leading-[26px]
+              className={`text-[18px] font-normal leading-[26px]
         ${dark ? "text-white" : ""}`}
             >
               {project.name}

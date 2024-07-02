@@ -50,7 +50,7 @@ function About() {
           className={` text-[18px] font-normal leading-[26px]
         ${dark ? "text-white" : ""}`}
         >
-          Men Najot Ta'limda Frontend React JS dasturlsh kursini tamomladim va
+          Men Najot Ta`limda Frontend React JS dasturlsh kursini tamomladim va
           sertifikat oldim. Bundan tashqari, men turli musobaqalar, tadbirlarda faol qatnashib turaman. Hozirda turli texnologiyalarni loyihalarimda qo‘llab o‘rganyapman. 
            
         </p>
