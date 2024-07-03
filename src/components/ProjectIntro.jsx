@@ -113,13 +113,13 @@ function ProjectIntro() {
               dark ? 'bg-white' : 'bg-slate-100'
             }`}
           >
-            <div className="w-[200px] mx-auto p-[12px] my-2  bg-white">
+            {/* <div className="w-[200px] mx-auto p-[12px] my-2  bg-white">
               <img
                 className="w-full h-[140px] object-cover rounded-lg shadow-lg"
                 src={project.img}
                 alt={project.name}
               />
-            </div>
+            </div> */}
             <h2
               className={` text-[18px] font-normal leading-[26px]
         ${dark ? 'text-black' : 'text-black'}`}
