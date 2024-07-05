@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    name: 'Multi step',
+    website: 'https://step-changing.netlify.app/',
+    github:
+      'https://github.com/HikmatullohAbdullayev/resume-builder',
+    stack1: 'React',
+    style1: 'Material UI',
+    img: '../../src/assets/img/metro.png',
+  },
+  {
     name: 'Multi Page',
     website: 'https://malaka-oshirish-platformasi.netlify.app/',
     github:
