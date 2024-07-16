@@ -1,4 +1,4 @@
-import metro from "../../src/assets/img/metro.png" 
+import metro from "../assets/img/metro.png" 
 
 
 
