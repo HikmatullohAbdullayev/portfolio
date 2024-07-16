@@ -1,3 +1,7 @@
+import metro from "../../src/assets/img/metro.png" 
+
+
+
 export const projectData = [
   {
     name: 'Multi step',
@@ -6,7 +10,7 @@ export const projectData = [
       'https://github.com/HikmatullohAbdullayev/resume-builder',
     stack1: 'React',
     style1: 'Material UI',
-    img: '../../src/assets/img/metro.png',
+    img: "metro",
   },
   {
     name: 'Multi Page',
@@ -15,7 +19,7 @@ export const projectData = [
       'https://github.com/HikmatullohAbdullayev/Malaka-oshirish-platformasi',
     stack1: 'React',
     style1: 'Tailwind css, Shadcn UI',
-    img: '../../src/assets/img/metro.png',
+    img: {metro},
   },
   {
     name: 'Multi Page',
