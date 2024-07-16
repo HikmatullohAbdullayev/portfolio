@@ -10,7 +10,7 @@ export const projectData = [
       'https://github.com/HikmatullohAbdullayev/resume-builder',
     stack1: 'React',
     style1: 'Material UI',
-    img: "metro",
+    img: "/src/assets/img/metro.png",
   },
   {
     name: 'Multi Page',
