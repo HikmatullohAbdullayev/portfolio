@@ -19,7 +19,7 @@ export const projectData = [
       'https://github.com/HikmatullohAbdullayev/Malaka-oshirish-platformasi',
     stack1: 'React',
     style1: 'Tailwind css, Shadcn UI',
-    img: {metro},
+    img: metro,
   },
   {
     name: 'Multi Page',
