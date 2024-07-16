@@ -1,4 +1,12 @@
 import metro from "../assets/img/metro.png" 
+import gmt from "../assets/img/gmt.png" 
+import hind from "../assets/img/hind.png" 
+import med from "../assets/img/med.png" 
+import onlinecourse from "../assets/img/onlinecourse.png" 
+import shoes from "../assets/img/shoes.png" 
+import singin from "../assets/img/singin.png" 
+import todo from "../assets/img/todo.png" 
+import multiStep from "../assets/img/multiStep.png" 
 
 
 
@@ -10,7 +18,7 @@ export const projectData = [
       'https://github.com/HikmatullohAbdullayev/resume-builder',
     stack1: 'React',
     style1: 'Material UI',
-    img: "/src/assets/img/metro.png",
+    img: multiStep,
   },
   {
     name: 'Multi Page',
@@ -27,7 +35,7 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/online-course',
     stack1: 'React, useContext',
     style1: 'Tailwind css',
-    img: '../../src/assets/img/onlinecourse.png',
+    img: onlinecourse,
   },
   {
     name: 'Multi Page, E-commerce',
@@ -35,7 +43,7 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/Shoes-market',
     stack1: 'React-js, ChatGPT ',
     style1: 'CSS ',
-    img: '../../src/assets/img/shoes.png',
+    img: shoes,
   },
   {
     name: 'Multi Page, E-commerce',
@@ -43,7 +51,7 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/gmtshop',
     stack1: 'React-js, ChatGPT ',
     style1: 'Tailwind css ',
-    img: '../../src/assets/img/gmt.png',
+    img: gmt,
   },
   // {
   //     name:"Multi Page, E-commerce",
@@ -60,7 +68,7 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/MedYordam',
     stack1: 'React-js',
     style1: 'Tailwind css',
-    img: '../../src/assets/img/med.png',
+    img: med,
   },
   {
     name: 'Landing Page',
@@ -68,7 +76,7 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/online-courses',
     stack1: 'React-js',
     style1: 'Tailwind css',
-    img: '../../src/assets/img/hind.png',
+    img: hind,
   },
   {
     name: 'To do',
@@ -76,7 +84,7 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/ToDoList-React',
     stack1: 'React Js',
     style1: 'Tailwind css',
-    img: '../../src/assets/img/todo.png',
+    img: todo,
   },
   {
     name: 'Login Page',
@@ -84,6 +92,6 @@ export const projectData = [
     github: 'https://github.com/HikmatullohAbdullayev/login-sign',
     stack1: 'React-js',
     style1: 'Tailwind css',
-    img: '../../src/assets/img/singin.png',
+    img: singin,
   },
 ];
