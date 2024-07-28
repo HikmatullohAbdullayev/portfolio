@@ -7,10 +7,19 @@ import shoes from "../assets/img/shoes.png"
 import singin from "../assets/img/singin.png" 
 import todo from "../assets/img/todo.png" 
 import multiStep from "../assets/img/multiStep.png" 
-
+import zamaxshariy from "../assets/img/zamaxshariy.png"
 
 
 export const projectData = [
+  {
+    name: "Learn platform",
+    website: 'https://zamaxshariy-edu-students.netlify.app/',
+    github:
+      'https://github.com/HikmatullohAbdullayev/Alifjonuz',
+    stack1: 'React',
+    style1: 'Tailwind css, shadcn UI',
+    img: zamaxshariy,
+  },
   {
     name: 'Multi step',
     website: 'https://step-changing.netlify.app/',
