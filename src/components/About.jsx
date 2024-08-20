@@ -48,7 +48,7 @@ function About() {
           <span className="text-red-500">
             <Link
               target="blank"
-              to="https://drive.google.com/file/d/13_RE6E6gAjafyFBP2XF5sjBQGr5vu5ch/view"
+              to="https://drive.google.com/file/d/10JbYC2Tmw_I7Beov4ReG2st5QJnBHfl2/view?usp=sharing"
             >
               Rezyume
             </Link>
