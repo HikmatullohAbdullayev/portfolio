@@ -16,7 +16,7 @@ export const projectData = [
     website: 'https://zamaxshariy-edu-students.netlify.app/',
     github:
       'https://github.com/HikmatullohAbdullayev/Alifjonuz',
-    stack1: 'React',
+    stack1: 'React, Zustand',
     style1: 'Tailwind css, shadcn UI',
     img: zamaxshariy,
   },
